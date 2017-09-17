@@ -2,7 +2,7 @@ import sys
 sys.path.append('/usr/local/lib/python2.7/site-packages')
 import cv2
 import numpy as np
-img= cv2.imread('watch.jpg',cv2.IMREAD_COLOR)
+img= cv2.imread('image/watch.jpg',cv2.IMREAD_COLOR)
 #line draw on the image
 cv2.line(img,(0,0),(250,250),(0,255,0),15)
 # rectangle draw on the image

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread('download.jpg')
+img=cv2.imread('image/download.jpg')
 
 
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
